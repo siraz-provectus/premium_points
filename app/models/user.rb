@@ -1,4 +1,4 @@
-class Usesr < ApplicationRecord
+class User < ApplicationRecord
   has_one :balance
   has_many :transactions
 

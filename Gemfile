@@ -24,6 +24,11 @@ gem 'puma', '~> 3.11'
 gem "decent_exposure"
 gem "dotenv-rails"
 gem 'active_model_serializers'
+# search
+gem "searchlight"
+
+# pagination
+gem 'kaminari'
 
 # api routes version
 gem 'versionist'

@@ -1,7 +1,7 @@
 FactoryBot.define do
   factory :transaction do
-    user { nil }
-    sum { 1 }
-    transaction_type { 1 }
+    user
+    sum { 100 }
+    transaction_type { 'replenishment' }
   end
 end
